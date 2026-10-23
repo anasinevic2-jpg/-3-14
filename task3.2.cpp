@@ -1,11 +1,10 @@
 ﻿#include <iostream>
 using namespace std;
 int main() {
-    double t;
+    double t = 0;
     int count = 0;   
     int neg = 0;     
     cout << "Вводите температуру (999 - конец):" << endl;
-    cin >> t;
     while (t != 999) {
         count++;
         if (t < 0) {
